@@ -60,7 +60,7 @@ class CIFAR10(VisionDataset):
             train: bool = True,
             transform: Optional[Callable] = None,
             target_transform: Optional[Callable] = None,
-            download: bool = False,
+            download: bool = True,
     ) -> None:
 
         super(CIFAR10, self).__init__(root, transform=transform,
